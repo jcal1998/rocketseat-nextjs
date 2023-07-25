@@ -5,6 +5,13 @@ const nextConfig = {
             'files.stripe.com',
         ],
     },
+
+    compiler: {
+        styledComponents: {
+            ssr: true,
+            displayName: true,
+        }
+    }
 }
 
 module.exports = nextConfig
