@@ -38,3 +38,20 @@ export function User() {
     </main>
   );
 }
+
+// // `app` directory
+// import { cookies, headers } from 'next/headers'
+
+// async function getData() {
+//   const authHeader = headers().get('authorization')
+
+//   return '...'
+// }
+
+// export default async function Page() {
+//   // You can use `cookies()` or `headers()` inside Server Components
+//   // directly or in your data fetching function
+//   const theme = cookies().get('theme')
+//   const data = await getData()
+//   return '...'
+// }
